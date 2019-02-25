@@ -1,0 +1,47 @@
+*{
+    color: white;
+    font-family: "arial black";
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(36, 32, 32);
+}
+
+
+img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 10px;
+    top: 3px;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    background-image: url(bg.jpg);
+    height: 950px;
+    width: 650px;
+    margin-left: 30%;
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.group{
+    padding-top: 30px;
+    height: 200px;
+    width: 300px;
+}
+
+.title{
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 200px; 
+}
+
+
