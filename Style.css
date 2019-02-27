@@ -2,6 +2,7 @@
     color: white;
     font-family: "arial black";
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -21,27 +22,31 @@ li{
     list-style: none;
 }
 
-.container{
+.color{
     background-image: url(bg.jpg);
     height: 950px;
     width: 650px;
     margin-left: 30%;
     margin-top: -10px;
+}
+
+.container{
+    background: linear-gradient(to left, rgba(195, 9, 9, 0.5), rgba(189, 54, 54, 0.5));
+    height: 950px;
+    width: 650px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .group{
     padding-top: 30px;
-    height: 200px;
-    width: 300px;
+    flex-basis: 250px;
 }
 
 .title{
     border-bottom: 1px solid white;
     text-align: center;
-    width: 200px; 
 }
 
 
