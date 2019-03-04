@@ -22,18 +22,12 @@ li{
     list-style: none;
 }
 
-.color{
-    background-image: url(bg.jpg);
-    height: 950px;
-    width: 650px;
-    margin-left: 30%;
-    margin-top: -10px;
-}
 
 .container{
-    background: linear-gradient(to left, rgba(195, 9, 9, 0.5), rgba(189, 54, 54, 0.5));
+    background: linear-gradient(to left, rgba(195, 9, 9, 0.5), rgba(189, 54, 54, 0.5)), url(bg.jpg);
     height: 950px;
     width: 650px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
